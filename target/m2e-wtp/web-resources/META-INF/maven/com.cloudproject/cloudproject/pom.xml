@@ -67,6 +67,14 @@
         		<target>1.8</target>
         	</configuration>
         </plugin>
+        <plugin>
+			<groupId>org.apache.tomcat.maven</groupId>
+			<artifactId>tomcat8-maven-plugin</artifactId>
+			<version>2.2</version>
+			<configuration>
+				<path>/index</path>
+			</configuration>
+		  </plugin>
     </plugins>
   </build>
 </project>
